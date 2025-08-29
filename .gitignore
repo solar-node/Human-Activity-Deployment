@@ -13,3 +13,5 @@ Data/
 
 # System files
 .DS_Store
+
+.gitconfig
