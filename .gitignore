@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 
 # Virtual envs
-.env/
+env/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
