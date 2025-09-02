@@ -42,7 +42,7 @@ def predict_activity(data: Features):
         prediction = label_encoder.inverse_transform(prediction_encoded)
 
         # Return the prediction in JSON response
-        return {"Predictied Activity: ", prediction[0]}
+        return {"predicted_activity": prediction[0]}
     
     except Exception as e:
         # Returning the error msg if something goes wrong
